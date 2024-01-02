@@ -11,10 +11,10 @@ const Footer =()=> {
       <Container fluid className={classes.footer}>
         <Row>
           <Col md="4" className={classes.footer_copywright}>
-            <h3>Developed by John Fitzgerald</h3>
+            <h6>John Fitzgerald</h6>
           </Col>
           <Col md="4" className={classes.footer_copywright}>
-            <h3>Copyright © {year}</h3>
+            <h6>Copyright © {year}</h6>
           </Col>
           <Col md="4">
             <ul className={classes.footer_icons}>

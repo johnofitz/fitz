@@ -1,6 +1,5 @@
 {
-  "homepage": "https://johnofitz.github.io/fitz",
-  "name": "fitz",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {

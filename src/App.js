@@ -8,7 +8,6 @@ import ResumePage from "./Pages/ResumePage";
 import AboutPage from "./Pages/AboutPage";
 
 
-
 const routes = [
   {
     path: "/",
@@ -16,7 +15,7 @@ const routes = [
     errorElement: <ErrorPage />,
     id: "root",
     children: [
-      { index: true, element: <HomePage /> },
+      { index: true, element: <HomePage/> },
       { path: 'projects', element: <ProjectPage/>},
       { path: 'resume', element: <ResumePage/>},
       { path: 'about', element: <AboutPage/>},

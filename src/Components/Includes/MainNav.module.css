@@ -7,21 +7,46 @@
 
 }
 
-.wrapper:hover {
-  /* Color change on hover */
-  color: rgb(255, 0, 174);
+.title{
+  font-size: large;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family:Cambria;
+  font-weight: 500;
+  color: gainsboro;
+
+}
+.title:hover{
+  color: blueviolet;
 }
 
 .backColor{
   background-color: #009EDB !important;
 }
+
 .homeIcon {
   font-size: 1.2rem;
-  color: #009EDB !important;
+  color: gainsboro !important;
+}
+.homeIcon :hover{
+  color: blueviolet;
 }
 
+
 .imageIcon {
-  border-radius: 50px;
+  border: 2px solid gainsboro; /* Change the color and width as needed */
+  border-radius: 50%;
   height: 50px;
   width: 50px;
+  /* Add any additional styles you need */
+  transition: all 0.3s ease; /* Add smooth transition */
 }
+
+.imageIcon:hover {
+  transform: scale(1.5); /* Change the scale factor as needed */
+  border-width: 3px; /* Increase border width on hover if desired */
+}
+
+
+
+

@@ -10,9 +10,9 @@ const HomePage =()=>{
                   👋🏻
                 </span>
               </h1> */}
-        <body className="backsplash">
+       
         <Intro />
-        </body>
+        
         </>
     )
 }
