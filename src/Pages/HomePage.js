@@ -1,5 +1,5 @@
 import Intro from "../Components/Home/Intro"
-
+import './Root.css'
 const HomePage =()=>{
 
     return(
@@ -10,7 +10,9 @@ const HomePage =()=>{
                   👋🏻
                 </span>
               </h1> */}
+        <body className="backsplash">
         <Intro />
+        </body>
         </>
     )
 }

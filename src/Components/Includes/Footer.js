@@ -20,7 +20,7 @@ const Footer =()=> {
             <ul className={classes.footer_icons}>
               <li className={classes.social_icons}>
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/johnofitz"
                   className={classes.icon_color}
                 >
                   <FontAwesomeIcon icon={faGithub}/> 
@@ -29,7 +29,7 @@ const Footer =()=> {
 
               <li className={classes.social_icons}>
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://linkedin.com/in/john-fitzgerald90"
                   className={classes.icon_color}
                 >
                   <FontAwesomeIcon icon={faLinkedin}/> 

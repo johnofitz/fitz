@@ -11,11 +11,12 @@ import {
 import classes from "./MainNav.module.css";
 
 const MainNav = () => {
-  return (
+
+return(
     <Navbar
       collapseOnSelect
       expand="lg"
-      className='bg-body-tertiary '  
+      className={`bg-body-tertiary ${classes.backColor}`}
     >
       
       <Container>
@@ -54,6 +55,7 @@ const MainNav = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
   );
 };
 

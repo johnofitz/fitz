@@ -12,6 +12,9 @@
   color: rgb(255, 0, 174);
 }
 
+.backColor{
+  background-color: #009EDB !important;
+}
 .homeIcon {
   font-size: 1.2rem;
   color: #009EDB !important;
