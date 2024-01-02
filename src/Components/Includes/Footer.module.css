@@ -1,0 +1,48 @@
+.footer {
+    /* Set fixed position at the bottom */
+    position: fixed;
+    background-color: #009EDB;
+    bottom: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 8px !important ;
+    z-index: 1;
+    text-align: center !important;
+    /* Specify height and other styles for your footer */
+  }
+  
+  .footer_copywright {
+    text-align: center !important;
+  }
+  
+
+  
+  
+  
+  .footer h3 {
+    font-size: 1em;
+    font-family: Georgia;
+    font-style: italic;
+    color: rgb(14, 14, 14) !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+  }
+
+  .footer_icons {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+    padding: 0 !important;
+  }
+  
+  .social_icons {
+    display: inline-block !important;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .icon_color {
+    color: ghostwhite !important;
+  }
+
+  .icon_color :hover{
+    color: green;
+  }
