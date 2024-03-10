@@ -14,19 +14,22 @@
   font-family:Cambria;
   font-weight: 500;
   color: gainsboro;
+  transition: all 0.3s ease; /* Add smooth transition */
 
 }
 .title:hover{
   color: blueviolet;
+  transform: scale(1.5); /* Change the scale factor as needed */
 }
 
 .backColor{
-  background-color: #009EDB !important;
+  background-image: linear-gradient(to bottom, rgb(0,158,219), rgb(6, 102, 141));
 }
 
 .homeIcon {
   font-size: 1.2rem;
   color: gainsboro !important;
+
 }
 .homeIcon :hover{
   color: blueviolet;
@@ -38,7 +41,6 @@
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  /* Add any additional styles you need */
   transition: all 0.3s ease; /* Add smooth transition */
 }
 

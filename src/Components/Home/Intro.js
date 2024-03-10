@@ -1,33 +1,34 @@
-
 import Typewriter from "typewriter-effect";
-import classes from "./Intro.module.css";
+import homeClass from "../../Pages/Home.module.css";
 
 const Intro = () => {
-    return (
-        <>
-        <div className={classes.center}>
-        <div className={classes.Typewriter__wrapper}>
-        <Typewriter
-          
-          options={{
-            strings: [
+  return (
+    <>
+      <div className={homeClass.el_1}>
+      
+          <Typewriter
+            options={{
+              strings: [
+                "Hi, I'm John",
                 "Full Stack Developer",
                 "Open Source Contributor",
                 "Using",
-                "C#, Java, React",
-                
-            ],
-            
-            cursor: "_",
-            autoStart: true,
-            loop: true,
-            deleteSpeed: 50,
-          }}
-        />
+                "C#",
+                "React",
+                "Java",
+              ],
+
+              cursor: "_",
+              autoStart: true,
+      
+              loop: true,
+              deleteSpeed: 50,
+            }}
+          />
         </div>
-        </div>
-        </>
-      );
-  };
-  
-  export default Intro;
+
+    </>
+  );
+};
+
+export default Intro;

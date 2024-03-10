@@ -1,19 +1,20 @@
-import Intro from "../Components/Home/Intro"
-import './Root.css'
-const HomePage =()=>{
-
-    return(
-        <>
-         {/* <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1> */}
-       
+import Intro from "../Components/Home/Intro";
+import classes from "./Home.module.css";
+import "./Root.css";
+const HomePage = () => {
+  return (
+    <>
+      <div className={classes.container}>
         <Intro />
-        
-        </>
-    )
-}
+        <div className={classes.el_2}>
+        <img
+            className={classes.imageHome}
+            src={require("../Assets/home.png")}
+            alt="profile-img"
+          />{" "}
+        </div>
+      </div>
+    </>
+  );
+};
 export default HomePage;
