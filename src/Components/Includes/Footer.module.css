@@ -1,43 +1,45 @@
 .footer {
-    /* Set fixed position at the bottom */
-    position: fixed;
-    background-image: linear-gradient(to bottom, rgb(0,158,219), rgb(6, 102, 141));
-    bottom: 0 !important;
-    padding-top: 6px !important;
-    padding-bottom: 4px !important ;
-    z-index: 1;
-    text-align: center !important;
-    /* Specify height and other styles for your footer */
-  }
-  
-  .footer_copywright {
-    text-align: center !important;
-  }
+  /* Set fixed position at the bottom */
+  position: fixed;
+  bottom: 0 ;
+  padding-top: 6px ;
+  padding-bottom: 4px  ;
+  z-index: 1;
+  text-align: center ;
  
-  .footer h6 {
-    font-size: 1em;
-    font-family:Cambria;
-    color: rgb(14, 14, 14) !important;
-    margin-top: 0.5em !important;
-    margin-bottom: 0.5em !important;
-  }
+}
 
-  .footer_icons {
-    margin-top: 0.5em !important;
-    margin-bottom: 0.5em !important;
-    padding: 0 !important;
-  }
-  
-  .social_icons {
-    display: inline-block !important;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  
-  .icon_color {
-    color: ghostwhite !important;
-  }
 
-  .icon_color :hover{
-    color: green;
-  }
+.footer:hover {
+  background-image: linear-gradient(to bottom, rgb(0,158,219), rgb(6, 102, 141));
+}
+
+
+.footer_copywright {
+  text-align: center ;
+
+}
+
+.footer h6 {
+  font-size: 1em;
+  font-family: Cambria;
+  color: navy;
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em ;
+}
+
+.footer_icons {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em ;
+  padding: 0 ;
+}
+
+.social_icons {
+  display: inline-block ;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer .icon_color:hover {
+  color: green;
+}
